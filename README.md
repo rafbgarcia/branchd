@@ -1,3 +1,5 @@
+_DEPRECATED: use Pg18 clones https://boringsql.com/posts/instant-database-clones/_
+
 # Branchd
 
 Branchd is a free PostgreSQL database branching tool that you can self-host anywhere.
@@ -16,10 +18,6 @@ Branchd is a free PostgreSQL database branching tool that you can self-host anyw
 - **Schema Migrations** - Test migrations safely before production
 - **Data Experiments** - Try changes without worrying about rollback
 
-## Quick Start
-
-Visit [branchd.dev](https://branchd.dev) for a step-by-step guide.
-
 ## Security
 
 The [Cloudformation template](cloudformation/branchd.yaml) and [server setup script](scripts/server_setup.sh) include:
@@ -33,8 +31,6 @@ The [Cloudformation template](cloudformation/branchd.yaml) and [server setup scr
 ## Self-hosting
 
 Branchd currently has a Cloudformation template to make it easy for you to self-host on AWS.
-
-However, it can be hosted anywhere with a few adjustments. If you need help with that, file an issue or shoot an email via the support link in https://branchd.dev/.
 
 ## License
 
